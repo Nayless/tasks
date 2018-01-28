@@ -3,7 +3,7 @@ sOut=open("result.txt","w")
 c=0
 summ=0
 for i in sIn:
-    p=sIn.readline()
+    p=i
     p=p[0]
     summ+=int(p)
     c+=1
